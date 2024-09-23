@@ -1,0 +1,221 @@
+cat /etc/fstab
+ls /bin
+id
+ls -l
+ls -l /sbin
+ls -l /usr/sbin
+ls -l /usr
+ls -l /bar
+ls -l /var
+ls -l /var/logs
+ls -l /var/log
+ls -l /var/dev
+ls -l /dev
+ls -l /dev |grep sda
+ls -l /dev |grep tty
+ls -l /dev |grep video
+ls -l /dev |grep media
+ls -l /mnt
+ls -l /media
+ssh-keygen
+pwd
+whoaim
+who ami
+whoami
+pwd
+ls -la
+ls -la |grep proce/proc/
+
+ls -la | grep ssh
+ls -l
+ls -l .ssh/
+ssh-keygen
+[200~cat $HOME/.ssh/*.pub~
+cat $HOME/.ssh/*.pub
+ll
+cd .ssh/
+ll
+cat id_ed25519.pub
+ll
+mkdir repogit
+rm repogit
+ll
+cd ..
+pwd
+ll
+cd repogit
+git clone git@github.com:MatiasMartina/TP_AySO.git
+cd TP_AySO/
+ls -la
+cat /etc/os-release
+grep --help
+grep -i HOME_URL
+ll
+pwd
+cd repogit/
+cd TP_AySO/.git/
+cd ..
+ll
+cat datos_usuario.txt 
+ll
+cd repogit/
+cd TP_AySO/
+ll
+cat datos_usuario.txt 
+git status
+git commit -m "feat: Añadiendo información de CPU”
+git status
+
+
+
+pwd
+cd ..
+pwd
+cd ..
+pwd
+ll
+ll -a
+vagrant status
+pwd
+cd ..
+pwd
+ll
+pwd
+cd home/vagrant/
+pwd
+lsb_release -a
+ls -l /root/
+pwd
+ls -l
+ls /bin
+id
+cat /proc/cpuinfo 
+cat /proc/cpuinfo
+cat /proc/cpuinfo tail -1
+cat /proc/cpuinfo tail-1
+cat /proc/cpuinfo
+cat /proc/cpuinfo tail-1
+ls -l /bin/
+ls -l /sbin/
+ls
+ls -l /usr/sbin
+ls -l /var
+ls -l /var/log
+q
+pwd
+cd ..
+ll
+pwd
+ll
+ls -l
+cd vagrant/
+pwd
+ll
+grep proc proc/cpuinfo
+grep proce proc/cpuinfo/
+ll
+grep r /readme
+grep r /readme.txt
+grep r /README
+grep r /README.text
+cd..
+cd ..
+pwd
+cd ..
+pwd
+ll
+grep proce /proc/cpuinfo
+pwd
+ll
+cd home
+pwd
+ls -l .ssh/
+ll
+cd ..
+ll
+cd home
+ll
+cd vagrant/
+ll
+cd .ssh
+pwd
+cd ..
+ll
+ls -l .ssh/
+cat /home/vagrant/.ssh/id_ed25519
+ll
+git log | grep commit 
+history
+
+man grep
+cat etc/passwd
+cat /etc/passwd
+grep man
+man grep
+cat /etc/passwd | grep -v nologin
+history
+cat /etc/passwd | grep -v nologin | head n-10
+
+man sort
+cat /etc/passwd | grep -v nologin | head -n 10 | sort -k 7
+ll
+history
+ll
+cd repogit/
+ll
+cd T
+cd TP_AySO/
+ll
+rm -r lista_ordenada
+rm -r lista_ordenada.txt
+history
+grep -v nologin /etc/passwd | head -n 10 | sort -k 7 >> lista_ordenada.txt
+cat lista_ordenada.txt 
+history
+git status
+ll
+cat lista_ordenada.txt 
+git add .
+git status
+rm comando_dump_net
+touch comando_dump_net
+ll
+echo "tcpdump"
+ll
+echo "tcpdump" >> comando_dump_net 
+cat comando_dump_net 
+ll
+echo "man -k \"dump traffic\"" >> comando_dump_net 
+cat comando_dump_net 
+history
+cat README.md 
+cat << EOF >> README.md
+Alumno: Matias Martina Vivas
+
+Division: C314
+Turno: Noche
+EOF
+
+cat README.md 
+sed -i '1,7d'
+sed -i '1,7d' README.md 
+cat README.md 
+cat << EOF >> README.md
+TP_AySO
+Alumno: Matias Nicolas Martina Vivas
+Division: C314
+Turno: Noche
+EOF
+
+cat README.md 
+add .
+git
+git add .
+git status
+git commit -m "docs: Documento README.md modificado con los datos del alumno"
+git push
+history 
+cat README.md 
+pwd
+man history -a
+history -a
